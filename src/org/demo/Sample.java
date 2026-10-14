@@ -13,10 +13,16 @@ public class Sample {
 		System.out.println("Selenium Automation");
 	}
 	
+	private void institute() {
+		
+		System.out.println("SmartSkillsTechnologies");
+	}
+	
 	public static void main(String[] args) {
 		Sample s = new Sample();
 		s.empl();
 		s.course();
+		s.institute();
 	}
 
 }
