@@ -18,11 +18,17 @@ public class Sample {
 		System.out.println("SmartSkillsTechnologies");
 	}
 	
+	private void branch() {
+		
+		System.out.println("Pallikaranai");
+	}
+	
 	public static void main(String[] args) {
 		Sample s = new Sample();
 		s.empl();
 		s.course();
 		s.institute();
+		s.branch();
 	}
 
 }
