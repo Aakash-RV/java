@@ -9,9 +9,14 @@ public class Sample {
 		System.out.println("Employee Id: 01");
 	}
 	
+	private void course() {
+		System.out.println("Selenium Automation");
+	}
+	
 	public static void main(String[] args) {
 		Sample s = new Sample();
 		s.empl();
+		s.course();
 	}
 
 }
